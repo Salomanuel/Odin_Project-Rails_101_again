@@ -1,0 +1,3 @@
+[submodule "hello-app"]
+	path = hello-app
+	url = /home/under9000/workspace/09-rails-tutorial/hello_app/
