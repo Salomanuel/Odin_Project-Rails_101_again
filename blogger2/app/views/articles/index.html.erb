@@ -3,10 +3,14 @@
 <ul id="articles">
 	<% @articles.each do |article| %>
 		<li>
-			<%= link_to article.title, article_path(article) %>
+			<%= link_to article.title, article_path(article), class: 'article_title' %>
 		</li>
 	<% end %>
 </ul>
+
+
+<%= link_to "new article", new_article_path, class: "new_article" %>
+
 
 
 <!-- Prefix Verb   URI Pattern                  Controller#Action
