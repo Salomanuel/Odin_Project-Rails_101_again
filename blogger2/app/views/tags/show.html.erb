@@ -5,3 +5,6 @@
 		<li><%= link_to article.title, article_path(article) %></li>
 	<% end %>
 </ul>
+
+<%= link_to "<< back to Articles list", articles_path %><br>
+<%= link_to "<< back to Tags list"		,	tags_path %>
