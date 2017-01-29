@@ -16,8 +16,9 @@
 		<% if logged_in? %>
 			<%= "Logged in as #{current_user.email}" %>
 		<% else %>
-			Logged out
-		<% end %>
+			<%= link_to "(login)", login_path %><br>
+			<%= link_to '(register)', new_author_path %>
+		<% end %><br>
 	</h6>
 </div>
 </body>
